@@ -1,0 +1,152 @@
+.main {
+  position: relative;
+  padding: 6rem;
+  min-height: 100vh;
+  display: block;
+}
+
+.grid-container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.topper {
+  position: sticky;
+  top: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  z-index: 100;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  background-color: white;
+}
+
+.topper p {
+  line-height: 3;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sidebar {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 480px;
+  position: sticky;
+  top: 80px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: white;
+  z-index: 100;
+}
+
+.plan-content {
+  display: grid;
+  grid-column-start: 5;
+  grid-column-end: 13;
+}
+
+.sidebar-ctas {
+  align-content: flex-end;
+}
+
+.cta {
+  @apply rounded-full p-6 bg-blue-900 text-white text-center mb-4;
+}
+
+.cta-inverse {
+  @apply text-blue-900 bg-white border;
+  border-color: rgb(30 58 138 / var(--tw-text-opacity));
+}
+
+.pricing {
+  @apply font-semibold text-4xl font-sans;
+}
+
+.plan-name {
+  @apply font-display font-light text-4xl mt-1;
+}
+
+.specs {
+  @apply mt-2 text-2xl;
+}
+
+.plan-hero {
+  min-height: 520px;
+  background-color: #222;
+  width: 100%;
+  position: relative;
+  background-position: center 56%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('https://hemi.rc.anewgo.com/api/v2/exterior/client/bakerresidential?elevId=10&mode=hybrid&schemeId=47&w=1800');
+}
+
+.plan-description {
+  @apply prose-lg prose-slate;
+  max-width: initial;
+}
+
+.emphasize {
+  @apply text-5xl mt-12 mb-8 font-display;
+}
+
+.first-paragraph {
+  margin-top: 1.3333rem;
+  margin-bottom: 1.333rem;
+}
+
+.floorplan-title {
+  @apply font-display text-3xl font-extralight mt-12 mb-8 tracking-wide;
+}
+
+.floorplan {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: auto;
+}
+
+.floorplan-container {
+  width: 100%;
+  min-height: 800px;
+  padding: 1rem;
+  @apply border border-blue-200 shadow-lg;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  padding-top: 6rem;
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  .sidebar {
+    position: initial;
+    grid-column-end: 16;
+  }
+  .cta {
+    max-width: 320px;
+  }
+  .plan-content {
+    grid-column-start: 1;
+    grid-column-end: 16;
+  }
+  .plan-hero {
+    min-height: 360px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

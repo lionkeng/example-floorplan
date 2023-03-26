@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="113px" height="113px" viewBox="0 0 113 113" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <g id="Group" transform="translate(45.736636, 47.285485)">
+                <ellipse id="Oval" fill="#000000" cx="33" cy="32.8572573" rx="33" ry="32.8572573"></ellipse>
+                <ellipse id="Oval" fill="#FFD600" cx="32.9394605" cy="32.7969797" rx="26.4980736" ry="26.3834552"></ellipse>
+                <line x1="62.974381" y1="3.37030576" x2="63.4743808" y2="62.5222624" id="Line" stroke="#000000" stroke-width="6" stroke-linecap="square" transform="translate(63.224381, 32.946284) rotate(-0.000000) translate(-63.224381, -32.946284) "></line>
+            </g>
+            <path d="M48.0878906,103.723275 C51.9762196,106.970021 54.3227916,109.981483 58.2373047,112.511214 L26.3813485,112.511214 C18.4653541,112.511214 12.0250172,106.597345 12.0250172,99.3284465 L12.0250172,53.1879002 L6.45062348,57.8575126 L0,51.3648792 L61.3164596,0 L113,43.2999655 L98.7989027,43.2999655 L61.3164596,11.8964349 L21.5962165,45.170215 L21.5962165,99.3284465 C21.5962165,101.751699 23.7423719,103.723275 26.3813485,103.723275 L48.0878906,103.723275 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
