@@ -280,6 +280,9 @@ function Footer(): JSX.Element {
           Footer
         </h2>
         <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+          <p className={`${styles.notice} !text-white mb-4`}>
+            This page is created for illustration purposes only.
+          </p>
           <div className="mt-0 mb-8 border-t border-white/10 pt-8" />
 
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">

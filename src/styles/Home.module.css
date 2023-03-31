@@ -13,6 +13,10 @@
   grid-template-columns: repeat(12, 1fr);
 }
 
+.notice {
+  @apply text-xs sm:text-base text-center font-display text-slate-700;
+}
+
 .topper {
   position: sticky;
   top: 0;
@@ -21,7 +25,7 @@
   z-index: 100;
   width: 100%;
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: 200px 1fr;
   background-color: white;
 }
 
@@ -44,7 +48,6 @@
   grid-column-start: 1;
   grid-column-end: 4;
   background-color: white;
-  z-index: 100;
 }
 
 .plan-content {
