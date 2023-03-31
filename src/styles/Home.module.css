@@ -79,6 +79,7 @@
 }
 
 .plan-hero {
+  position: relative;
   min-height: 520px;
   background-color: #222;
   width: 100%;
@@ -92,6 +93,18 @@
 .plan-description {
   @apply prose-lg prose-slate;
   max-width: initial;
+}
+
+.plan-design-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  @apply mr-4 z-10 bg-blue-900 text-white rounded-full p-4 mb-4 pr-6 pl-6 uppercase cursor-pointer text-sm;
+}
+
+.design-dialog {
+  @apply relative;
+  z-index: 1000;
 }
 
 .emphasize {
