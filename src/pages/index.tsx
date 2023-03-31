@@ -105,9 +105,14 @@ interface SlidingPanelI {
 }
 
 function SlidingPanel({ open, setOpen }: SlidingPanelI): JSX.Element {
-  let maxWidth = document.getElementById('plan-content')?.offsetWidth
-  if (maxWidth) {
-    maxWidth += 96 // padding on the right
+  let maxWidth: string | number = 0
+  if (global.window) {
+    maxWidth = global.document.getElementById('plan-content')?.offsetWidth || 0
+    if (global.window.screen.width >= 960) {
+      maxWidth += 96 // padding on the right
+    }
+  } else {
+    maxWidth = '100%'
   }
   return (
     <Transition.Root show={open} as={Fragment}>
