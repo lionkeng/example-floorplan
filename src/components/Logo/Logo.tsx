@@ -7,14 +7,14 @@ export default function Logo({}): JSX.Element {
       <g
         id="Page-1"
         stroke="none"
-        stroke-width="1"
+        strokeWidth="1"
         fill="none"
-        fill-rule="evenodd"
+        fillRule="evenodd"
       >
         <g
           id="ANG_MAIN_WEBLOGO"
           transform="translate(0.600000, 0.920000)"
-          fill-rule="nonzero"
+          fillRule="nonzero"
         >
           <g id="Group-2">
             <g id="Group" transform="translate(0.000000, 0.280000)">
