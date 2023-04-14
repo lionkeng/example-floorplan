@@ -1,0 +1,9 @@
+.light {
+  fill: #ffd600;
+  @apply dark:fill-white;
+}
+
+.dark {
+  fill: #9d9d9d;
+  @apply dark:fill-yellow-500;
+}

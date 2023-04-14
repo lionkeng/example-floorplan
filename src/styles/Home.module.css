@@ -26,11 +26,16 @@
   width: 100%;
   display: grid;
   grid-template-columns: 200px 1fr;
-  background-color: white;
+  @apply bg-white dark:bg-black;
 }
 
 .topper p {
   line-height: 3;
+}
+
+.topper svg {
+  height: 30px;
+  width: auto;
 }
 
 .logo-container {
@@ -47,7 +52,6 @@
   top: 80px;
   grid-column-start: 1;
   grid-column-end: 4;
-  background-color: white;
 }
 
 .plan-content {

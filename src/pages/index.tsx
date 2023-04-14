@@ -1,12 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 import { Dispatch, Fragment, SVGProps, SetStateAction, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
+import Logo from '@/components/Logo/Logo'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -180,15 +180,8 @@ function Topper(): JSX.Element {
           target="_blank"
           rel="noopener noreferrer"
         >
-          By{' '}
-          <Image
-            src="/anewgo_long.svg"
-            alt="Anewgo Logo"
-            className={styles.logo}
-            width={100}
-            height={24}
-            priority
-          />
+          By
+          <Logo />
         </a>
       </div>
     </div>
@@ -287,11 +280,7 @@ function Footer(): JSX.Element {
 
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <div className="space-y-8">
-              <img
-                className={styles['footer-logo']}
-                src="/anewgo_long.svg"
-                alt="Anewgo Inc."
-              />
+              <Logo />
               <p className="text-sm leading-6 text-gray-300">
                 Find, Design, Buy New Homes. Online.
               </p>
