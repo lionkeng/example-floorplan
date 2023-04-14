@@ -395,7 +395,7 @@ export default function Home() {
         <title>Example Floorplan</title>
         <meta
           name="description"
-          content="Example floorplan page with embedded anewgo.com standalone floorplan app"
+          content="This is an example how to use anewgo's standalone module. This page is for illustration purposes only."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
