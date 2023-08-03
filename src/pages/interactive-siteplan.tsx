@@ -6,7 +6,7 @@ export default function InteractiveSiteplanPage(): JSX.Element {
       <iframe
         className={styles.iframe}
         src={
-          'gazebo-nbhj14v69-lionkeng.vercel.app/interactive-siteplan/client/little_bear_creek/community/2'
+          'https://gazebo.anewgo.com/interactive-siteplan/client/little_bear_creek/community/2'
         }
       />
     </div>
