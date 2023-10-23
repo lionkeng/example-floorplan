@@ -94,7 +94,7 @@
   background-position: center 56%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('https://hemi.rc.anewgo.com/api/v2/exterior/client/bakerresidential?elevId=10&mode=hybrid&schemeId=47&w=1800');
+  background-image: url('https://hemi.anewgo.com/api/v2/exterior/client/bakerresidential?elevId=10&mode=hybrid&schemeId=47&w=1800');
 }
 
 .plan-description {

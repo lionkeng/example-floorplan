@@ -5,7 +5,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'hemi.rc.anewgo.com',
+        hostname: 'hemi.anewgo.com',
       },
     ],
   },
